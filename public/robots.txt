@@ -1,0 +1,27 @@
+# CuniControl - Robots.txt
+# https://rabbitmanagerpro.mocha.app/robots.txt
+
+User-agent: *
+Allow: /
+Allow: /login
+Allow: /home
+Disallow: /api/
+Disallow: /admin
+
+# Sitemaps
+Sitemap: https://rabbitmanagerpro.mocha.app/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1
+
+# Google
+User-agent: Googlebot
+Allow: /
+
+# Bing
+User-agent: Bingbot
+Allow: /
+
+# Yandex
+User-agent: Yandex
+Allow: /
