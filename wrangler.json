@@ -23,15 +23,5 @@
 	      "binding": "R2_BUCKET",
 	      "bucket_name": "019bde5a-7925-762c-b579-d66b0faa5e14"
 	    }
-	  ],
-	  "services": [
-	    {
-	      "binding": "EMAILS",
-	      "service": "emails-service",
-	      "entrypoint": "EmailService",
-	      "props": {
-	        "appId": "019bde5a-7925-762c-b579-d66b0faa5e14"
-	      }
-	    }
 	  ]
 	}
