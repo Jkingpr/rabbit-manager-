@@ -1,0 +1,8 @@
+[build]
+publish = "dist/client"
+command = "npx vite build"
+
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200
