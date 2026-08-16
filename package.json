@@ -44,7 +44,7 @@
     "build": "tsc -b && vite build",
     "cf-typegen": "wrangler types",
     "check": "tsc && vite build && wrangler deploy --dry-run",
-    "dev": "vite",
+    "dev": "node dev.mjs",
     "knip": "knip",
     "lint": "eslint ."
   }
